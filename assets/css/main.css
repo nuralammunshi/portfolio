@@ -677,7 +677,15 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+.hero{
+ 
+  padding: 0px;
+}
+.hero img {
+  height: 500px;
+
+}
+/* .hero {
   width: 100%;
   min-height: calc(100vh - 82px);
   position: relative;
@@ -685,15 +693,15 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .hero {
     min-height: calc(100vh - 68px);
   }
-}
+} */
 
-.hero img {
+/* .hero img {
   position: absolute;
   inset: 0;
   display: block;
@@ -701,26 +709,26 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
-}
+} */
 
-.hero .container {
+/* .hero .container {
   position: relative;
   z-index: 3;
-}
+} */
 
-.hero h2 {
+/* .hero h2 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-}
+} */
 
-.hero p {
+/* .hero p {
   margin: 10px 0 0 0;
   font-size: 24px;
   color: var(--heading-color);
-}
+} */
 
-.hero .btn-get-started {
+/* .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-family: var(--heading-font);
@@ -733,9 +741,9 @@ section,
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-}
+} */
 
-.hero .btn-get-started:hover {
+/* .hero .btn-get-started:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, white 20%);
 }
 
@@ -747,7 +755,7 @@ section,
   .hero p {
     font-size: 18px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # About Section
